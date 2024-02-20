@@ -22,8 +22,8 @@ vim.keymap.set("n", "<C-l>", function() harpoon:list():select(4) end)
 -- vim.keymap.set("n", "<C-S-N>", function() harpoon:list():next() end)
 
 -- Explorer
-vim.api.nvim_set_keymap('n', '<C-o>', ':Explore<CR>', { noremap = true, silent = true })
-vim.keymap.set('n', '<C-p>', require('telescope.builtin').find_files, { desc = '[S]earch [F]iles' })
+-- vim.api.nvim_set_keymap('n', '<C-o>', ':Explore<CR>', { noremap = true, silent = true })
+-- vim.keymap.set('n', '<C-p>', require('telescope.builtin').find_files, { desc = '[S]earch [F]iles' })
 
 
 vim.opt.relativenumber = true
