@@ -21,5 +21,8 @@ return {
 		config = function ()
 			require('neo-tree').setup {}
 		end,
+	},
+	{
+		"Hoffs/omnisharp-extended-lsp.nvim"
 	}
 }

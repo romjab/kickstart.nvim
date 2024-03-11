@@ -19,7 +19,7 @@ vim.keymap.set("n", "<C-k>", function() harpoon:list():select(3) end)
 vim.keymap.set("n", "<C-l>", function() harpoon:list():select(4) end)
 vim.keymap.set("n", "<C-;>", function() harpoon:list():select(5) end)
 
-vim.api.nvim_set_keymap('n', '<leader>m', ':Neotree toggle<CR>', 
+vim.api.nvim_set_keymap('n', '<leader>m', ':Neotree toggle<CR>',
   {noremap = true, silent = true})
 
 -- -- Toggle previous & next buffers stored within Harpoon list
