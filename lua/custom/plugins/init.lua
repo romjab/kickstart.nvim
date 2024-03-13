@@ -24,5 +24,8 @@ return {
 	},
 	{
 		"Hoffs/omnisharp-extended-lsp.nvim"
+	},
+	{
+		"github/copilot.vim"
 	}
 }
