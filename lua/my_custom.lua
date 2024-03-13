@@ -34,3 +34,8 @@ vim.api.nvim_set_keymap('n', '<leader>cp', ':Copilot panel<CR>',
 
 vim.opt.relativenumber = true
 vim.opt.colorcolumn = "80,120"
+
+-- Set tab width
+vim.opt.tabstop = 4       -- Number of spaces that a <Tab> in the file counts for
+vim.opt.shiftwidth = 4    -- Size of an indent
+vim.opt.expandtab = true  -- Use spaces instead of tabs
