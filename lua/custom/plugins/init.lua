@@ -27,5 +27,8 @@ return {
 	},
 	{
 		"github/copilot.vim"
+	},
+	{
+		"xiyaowong/transparent.nvim"
 	}
 }
